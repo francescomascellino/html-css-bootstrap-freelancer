@@ -1,15 +1,70 @@
+/* #region DEBUG RULES */
+
 .debug * {
     border: 1px dashed;
 }
 
+/* #endregion DEBUG RULES */
+
+/* #region GLOBAL RULES */
+
+body {
+    /* font-family: Helvetica, sans-serif; */
+}
+
+/* #endregion GLOBAL RULES */
+
+/* #region VARIABLES */
+
 :root {
     --bf_lgreen_bg: #1abc9c;
+    --bf_dblue: #2c3e50;
 }
+
+/* #endregion VARIABLES */
+
+
+/* #region COLORS */
 
 .hero {
     background-color: var(--bf_lgreen_bg);
 }
 
+.bf_bg_d_blue {
+    background-color: var(--bf_dblue);
+}
+
+.bf_text_d_blue {
+    color: var(--bf_dblue);
+}
+
+/* #endregion COLORS */
+
+
+/* #region H1 WITH STAR SPACER */
+
+.bf_star_spacer {
+    width: 40%;
+}
+
+.bf_star_line {
+    height: 3px;
+    min-width: 3rem;
+    border-radius: 5px;
+}
+
+/* #endregion H1 WITH STAR SPACER */
+
+/* #region NAVBAR */
+
+/*--------- WORK IN PROGRESS ---------*/
+
+/* #endregion VAVBAR */
+
+/* #region HERO */
+
 .bf_avatar_container {
     width: 20%;
 }
+
+/* #endregion HERO */
