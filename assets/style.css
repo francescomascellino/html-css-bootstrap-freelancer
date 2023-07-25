@@ -1,0 +1,15 @@
+.debug * {
+    border: 1px dashed;
+}
+
+:root {
+    --bf_lgreen_bg: #1abc9c;
+}
+
+.hero {
+    background-color: var(--bf_lgreen_bg);
+}
+
+.bf_avatar_container {
+    width: 20%;
+}
