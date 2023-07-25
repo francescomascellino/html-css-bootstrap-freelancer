@@ -77,15 +77,4 @@ nav {
     font-size: 0.7rem;
 }
 
-bf_btn_circle {
-    display: flex;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 2rem;
-    height: 2rem;
-    /* margin: 0 1rem; */
-    /* text-decoration: none; */
-}
-
 /* #endregion FOOTER */
