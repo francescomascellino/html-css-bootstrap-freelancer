@@ -31,10 +31,10 @@
             </nav>
 
             <!-- HERO -->
-            <section class="hero py-4 text-center text-light">
+            <section id="hero" class="py-5 text-center text-light">
 
                 <!-- AVATAR -->
-                <div class="bf_avatar_container d-inline-block">
+                <div class="bf_avatar_container w-25 py-3 d-inline-block">
 
                     <img class="img-fluid" src="./assets/img/avatar.svg"
                         alt="avatar">
@@ -50,7 +50,7 @@
                     </h1>
 
                     <div
-                        class="bf_star_spacer d-flex align-items-center gap-2 gap-md-3 py-2">
+                        class="bf_star_spacer w-50 d-flex align-items-center gap-2 gap-md-3 py-2">
 
                         <div class="bf_star_line flex-grow-1 bg-light"></div>
 
@@ -69,89 +69,152 @@
 
         </header>
 
-        <section id="portfolio" class="py-4 text-center">
-
-            <!-- H1 WITH STAR SPACER -->
-            <div
-                class="bf_title_starred text-uppercase d-flex flex-column align-items-center text-center">
-
-                <h1>
-                    portfolio
-                </h1>
-
-                <div
-                    class="bf_star_spacer d-flex align-items-center gap-2 gap-md-3 py-2 bf_text_d_blue">
-
-                    <div class="bf_star_line bf_bg_d_blue flex-grow-1"></div>
-
-                    <i class="fa-solid fa-star"></i>
-
-                    <div class="bf_star_line bf_bg_d_blue flex-grow-1"></div>
-
-                </div>
-
-            </div>
-
-            <!-- PORTFOLIO CARDS -->
-            <div class="container py-2">
-
-                <div class="row g-4">
-
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="img-fluid rounded"
-                                src="./assets/img/cabin.png"
-                                alt="cabin">
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="img-fluid rounded"
-                                src="./assets/img/cake.png"
-                                alt="cake">
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="img-fluid rounded"
-                                src="./assets/img/circus.png"
-                                alt="circus">
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="img-fluid rounded"
-                                src="./assets/img//game.png"
-                                alt="gamepad">
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="img-fluid rounded"
-                                src="./assets/img/safe.png"
-                                alt="safe">
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="img-fluid rounded"
-                                src="./assets/img/submarine.png"
-                                alt="submarine">
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
         <main>
+
+            <!-- PORTFOLIO -->
+            <section id="portfolio" class="py-5 text-center">
+
+                <!-- H1 WITH STAR SPACER -->
+                <div
+                    class="bf_title_starred text-uppercase d-flex flex-column align-items-center text-center">
+
+                    <h1>
+                        portfolio
+                    </h1>
+
+                    <div
+                        class="bf_star_spacer w-50 d-flex align-items-center gap-2 gap-md-3 py-2 bf_text_d_blue">
+
+                        <div class="bf_star_line bf_bg_d_blue flex-grow-1"></div>
+
+                        <i class="fa-solid fa-star"></i>
+
+                        <div class="bf_star_line bf_bg_d_blue flex-grow-1"></div>
+
+                    </div>
+
+                </div>
+
+                <!-- PORTFOLIO CARDS -->
+                <div class="container py-2">
+
+                    <div class="row g-4">
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="img-fluid rounded"
+                                    src="./assets/img/cabin.png"
+                                    alt="cabin">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="img-fluid rounded"
+                                    src="./assets/img/cake.png"
+                                    alt="cake">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="img-fluid rounded"
+                                    src="./assets/img/circus.png"
+                                    alt="circus">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="img-fluid rounded"
+                                    src="./assets/img//game.png"
+                                    alt="gamepad">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="img-fluid rounded"
+                                    src="./assets/img/safe.png"
+                                    alt="safe">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="img-fluid rounded"
+                                    src="./assets/img/submarine.png"
+                                    alt="submarine">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- ABOUT -->
+            <section id="about" class="text-light py-5">
+
+                <!-- H1 WITH STAR SPACER -->
+                <div
+                    class="bf_title_starred text-uppercase d-flex flex-column align-items-center text-center">
+
+                    <h1>
+                        about
+                    </h1>
+
+                    <div
+                        class="bf_star_spacer w-50 d-flex align-items-center gap-2 gap-md-3 py-2">
+
+                        <div class="bf_star_line flex-grow-1 bg-light"></div>
+
+                        <i class="fa-solid fa-star"></i>
+
+                        <div class="bf_star_line flex-grow-1 bg-light"></div>
+
+                    </div>
+
+                </div>
+
+                <div class="container w-75">
+
+                    <div class="row">
+
+                        <div class="col-12 col-md-6">
+
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Quam distinctio totam, voluptate
+                                blanditiis
+                                amet nulla? Nesciunt rerum optio, nihil
+                                doloremque
+                                quae, necessitatibus ratione inventore sapiente
+                                et
+                                placeat cumque veritatis aperiam.</p>
+
+                        </div>
+
+                        <div class="col-12 col-md-6">
+
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Quam distinctio totam, voluptate
+                                blanditiis
+                                amet nulla? Nesciunt rerum optio, nihil
+                                doloremque
+                                quae, necessitatibus ratione inventore sapiente
+                                et
+                                placeat cumque veritatis aperiam.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
 
         </main>
 

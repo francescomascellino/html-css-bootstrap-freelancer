@@ -23,10 +23,10 @@ body {
 
 /* #endregion VARIABLES */
 
-
 /* #region COLORS */
 
-.hero {
+#hero,
+#about {
     background-color: var(--bf_lgreen_bg);
 }
 
@@ -40,16 +40,10 @@ body {
 
 /* #endregion COLORS */
 
-
 /* #region H1 WITH STAR SPACER */
-
-.bf_star_spacer {
-    width: 40%;
-}
 
 .bf_star_line {
     height: 3px;
-    min-width: 3rem;
     border-radius: 5px;
 }
 
@@ -58,6 +52,9 @@ body {
 /* #region NAVBAR */
 
 /*--------- WORK IN PROGRESS ---------*/
+nav {
+    height: 3rem;
+}
 
 /* #endregion VAVBAR */
 
