@@ -1,5 +1,3 @@
-/* #endregion DEBUG RULES */
-
 /* #region GLOBAL RULES */
 
 body {
@@ -60,14 +58,6 @@ nav {
 }
 
 /* #endregion VAVBAR */
-
-/* #region HERO */
-
-.bf_avatar_container {
-    width: 20%;
-}
-
-/* #endregion HERO */
 
 /* #region FOOTER */
 
