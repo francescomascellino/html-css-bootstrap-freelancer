@@ -17,9 +17,9 @@ body {
 /* #region VARIABLES */
 
 :root {
-    --bf_lgreen_bg: #1abc9c;
-    --bf_dblue: #2c3e50;
-    --bf_mblue: #3a546d;
+    --bf_l_green: #1abc9c;
+    --bf_d_blue: #2c3e50;
+    --bf_m_blue: #3a546d;
 }
 
 /* #endregion VARIABLES */
@@ -28,23 +28,23 @@ body {
 
 #hero,
 #about {
-    background-color: var(--bf_lgreen_bg);
+    background-color: var(--bf_l_green);
 }
 
 .bf_text_l_green {
-    color: var(--bf_lgreen_bg);
+    color: var(--bf_lgreen);
 }
 
 .bf_bg_d_blue {
-    background-color: var(--bf_dblue);
+    background-color: var(--bf_d_blue);
 }
 
 .bf_text_d_blue {
-    color: var(--bf_dblue);
+    color: var(--bf_d_blue);
 }
 
 .bf_bg_m_blue {
-    background-color: var(--bf_mblue);
+    background-color: var(--bf_m_blue);
 }
 
 /* #endregion COLORS */
