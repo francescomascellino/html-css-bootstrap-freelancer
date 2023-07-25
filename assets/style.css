@@ -19,6 +19,7 @@ body {
 :root {
     --bf_lgreen_bg: #1abc9c;
     --bf_dblue: #2c3e50;
+    --bf_mblue: #3a546d;
 }
 
 /* #endregion VARIABLES */
@@ -36,6 +37,10 @@ body {
 
 .bf_text_d_blue {
     color: var(--bf_dblue);
+}
+
+.bf_bg_m_blue {
+    background-color: var(--bf_mblue);
 }
 
 /* #endregion COLORS */
@@ -65,3 +70,11 @@ nav {
 }
 
 /* #endregion HERO */
+
+/* #region FOOTER */
+
+.copyright {
+    font-size: 0.7rem;
+}
+
+/* #endregion FOOTER */
