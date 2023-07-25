@@ -31,6 +31,10 @@ body {
     background-color: var(--bf_lgreen_bg);
 }
 
+.bf_text_l_green {
+    color: var(--bf_lgreen_bg);
+}
+
 .bf_bg_d_blue {
     background-color: var(--bf_dblue);
 }
