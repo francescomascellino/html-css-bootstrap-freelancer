@@ -52,9 +52,12 @@ body {
 
 /* #region NAVBAR */
 
-/*--------- WORK IN PROGRESS ---------*/
-nav {
-    height: 3rem;
+.bf_fs_smaller {
+    font-size: 0.8rem;
+}
+
+.bf_filter_invert {
+    filter: invert();
 }
 
 /* #endregion VAVBAR */
