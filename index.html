@@ -307,46 +307,61 @@
 
                 </div>
 
-                <div class="container">
+                <div class="container w-75 text-start">
 
                     <form>
 
-                        <div class="mb-3">
+                        <div class="form-floating mb-3">
 
-                            <label for="exampleInputEmail1" class="form-label">Email
-                                address</label>
+                            <input type="text"
+                                class="form-control border-0 border-bottom rounded-0"
+                                id="name" placeholder="Enter your name...">
 
-                            <input type="email" class="form-control"
-                                id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-
-                            <div id="emailHelp" class="form-text">We'll never
-                                share
-                                your email with anyone else.</div>
+                            <label for="name"
+                                class="form-label text-capitalize fw-bold">name</label>
 
                         </div>
 
-                        <div class="mb-3">
+                        <div class="form-floating mb-3">
 
-                            <label for="exampleInputPassword1"
-                                class="form-label">Password</label>
+                            <input type="text"
+                                class="form-control border-0 border-bottom rounded-0"
+                                id="email"
+                                placeholder="Enter your email adress...">
 
-                            <input type="password" class="form-control"
-                                id="exampleInputPassword1">
+                            <label for="email"
+                                class="form-label text-capitalize fw-bold">email
+                                adress</label>
 
                         </div>
 
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input"
-                                id="exampleCheck1">
+                        <div class="form-floating mb-3">
 
-                            <label class="form-check-label" for="exampleCheck1">Check
-                                me out</label>
+                            <input type="text"
+                                class="form-control border-0 border-bottom rounded-0"
+                                id="phone"
+                                placeholder="Enter your phone number...">
+
+                            <label for="phone"
+                                class="form-label text-capitalize fw-bold">phone
+                                number</label>
+
+                        </div>
+
+                        <div class="form-floating">
+
+                            <textarea
+                                class="form-control border-0 border-bottom rounded-0"
+                                placeholder="Leave a message here" id="message"
+                                style="min-height: 150px"></textarea>
+
+                            <label for="message"
+                                class="form-label text-capitalize fw-bold">message</label>
 
                         </div>
 
                         <button type="submit"
-                            class="bf_btn_l_green btn text-capitalize  bf_bg_l_green">send</button>
+                            class="bf_btn_l_green btn text-capitalize mt-3 me-auto">send</button>
 
                     </form>
 

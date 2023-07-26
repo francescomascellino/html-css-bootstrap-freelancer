@@ -69,12 +69,18 @@ body {
 
 .bf_btn_l_green {
     color: white;
+    background-color: var(--bf_l_green);
 }
 
 .bf_btn_l_green:hover {
     color: black;
     background-color: white;
     border-color: black;
+}
+
+.form-floating .form-control {
+    height: 5rem;
+    line-height: 1rem;
 }
 
 /* #endregion CONTACT */
