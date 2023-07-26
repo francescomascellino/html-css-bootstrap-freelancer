@@ -311,57 +311,76 @@
 
                     <form>
 
+                        <!-- FORM NO FLOAT -->
+
+                        <!-- <div class="mb-3">
+
+                            <label for="name"
+                                class="form-label h4 text-capitalize fw-bold">name</label>
+                            <input type="text"
+                                class="form-control border-0 border-bottom rounded-0"
+                                id="name" placeholder="" required>
+
+                        </div> -->
+
+                        <!-- NAME -->
                         <div class="form-floating mb-3">
 
                             <input type="text"
                                 class="form-control border-0 border-bottom rounded-0"
-                                id="name" placeholder="Enter your name...">
+                                id="name" placeholder="Enter your name..."
+                                required>
 
                             <label for="name"
-                                class="form-label text-capitalize fw-bold">name</label>
+                                class="form-label h4 text-capitalize fw-bold">name</label>
 
                         </div>
 
+                        <!-- EMAIL -->
                         <div class="form-floating mb-3">
 
-                            <input type="text"
+                            <input type="email"
                                 class="form-control border-0 border-bottom rounded-0"
                                 id="email"
-                                placeholder="Enter your email adress...">
+                                placeholder="Enter your email adress..."
+                                required>
 
                             <label for="email"
-                                class="form-label text-capitalize fw-bold">email
+                                class="form-label h4 text-capitalize fw-bold">email
                                 adress</label>
 
                         </div>
 
+                        <!-- PHONE -->
                         <div class="form-floating mb-3">
 
-                            <input type="text"
+                            <input type="number"
                                 class="form-control border-0 border-bottom rounded-0"
                                 id="phone"
-                                placeholder="Enter your phone number...">
+                                placeholder="Enter your phone number..."
+                                required>
 
                             <label for="phone"
-                                class="form-label text-capitalize fw-bold">phone
+                                class="form-label h4 text-capitalize fw-bold">phone
                                 number</label>
 
                         </div>
 
-                        <div class="form-floating">
+                        <!-- MESSAGE -->
+                        <div class="form-floating mb-3">
 
                             <textarea
                                 class="form-control border-0 border-bottom rounded-0"
                                 placeholder="Leave a message here" id="message"
-                                style="min-height: 150px"></textarea>
+                                style="min-height: 150px" required></textarea>
 
                             <label for="message"
-                                class="form-label text-capitalize fw-bold">message</label>
+                                class="form-label h4 text-capitalize fw-bold">message</label>
 
                         </div>
 
                         <button type="submit"
-                            class="bf_btn_l_green btn text-capitalize mt-3 me-auto">send</button>
+                            class="bf_btn_l_green btn text-capitalize me-auto">send</button>
 
                     </form>
 

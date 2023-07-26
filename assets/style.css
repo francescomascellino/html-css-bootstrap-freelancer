@@ -79,8 +79,7 @@ body {
 }
 
 .form-floating .form-control {
-    height: 5rem;
-    line-height: 1rem;
+    height: 4rem;
 }
 
 /* #endregion CONTACT */
