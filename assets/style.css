@@ -56,6 +56,10 @@ body {
     font-size: 0.8rem;
 }
 
+.bf_no_shadow.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 .bf_filter_invert {
     filter: invert();
 }
