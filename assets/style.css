@@ -18,8 +18,7 @@ body {
 
 /* #region COLORS */
 
-#hero,
-#about {
+.bf_bg_l_green {
     background-color: var(--bf_l_green);
 }
 
@@ -64,7 +63,21 @@ body {
     filter: invert();
 }
 
-/* #endregion VAVBAR */
+/* #endregion NAVBAR */
+
+/* #region CONTACT */
+
+.bf_btn_l_green {
+    color: white;
+}
+
+.bf_btn_l_green:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+/* #endregion CONTACT */
 
 /* #region FOOTER */
 
